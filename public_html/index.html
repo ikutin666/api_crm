@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" type="text/css" href="css/css.css">
+        <link rel="stylesheet" type="text/css" href="css/kickstart-forms.css">
+        <link rel="stylesheet" type="text/css" href="css/kickstart-buttons.css">
+        
+         
+    </head>
+    <body>
+        <p>форма заказа 1кг корма</p>
+        <div>
+            <form method="POST" action="http://crm/send.php">
+        <label for="Fio">ФИО</label>
+        <input name="Fio" id="Fio" type="text" />
+        <label for="Mobi">Мобильный номер</label>
+        <input name="Mobi" id="Mobi" type="text" />
+        <label for="Email">Email</label>
+        <input name="Email" id="Email" type="text" />
+        
+        <label for="Adress">Адрес доставки</label>
+        <input name="Adress" id="Adress" type="text" />
+        <input type="submit" value="Заказать">
+         </form>
+        
+        </div>
+    </body>
+</html>

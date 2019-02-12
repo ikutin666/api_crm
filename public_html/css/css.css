@@ -1,0 +1,17 @@
+div
+{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 2px solid;
+    
+    top: 40%;
+    left: 40%;
+}
+p
+{
+ position: relative;
+ top: 40%;
+  left: 40%;
+}
